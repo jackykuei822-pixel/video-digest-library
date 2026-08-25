@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-25T11:15:00+08:00",
+  "updated_at": "2026-08-25T11:45:00+08:00",
   "source_status": "connected",
-  "source_message": "全量基線為 25,170 支影片；已完成 20 支，待處理 25,150 支。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 28 支，待處理 25,142 支。照片與螢幕截圖不建立素材記錄。",
   "inventory": {
     "total": 25170,
-    "completed": 20,
-    "pending": 25150,
+    "completed": 28,
+    "pending": 25142,
     "failed": 0,
     "logical_bytes": 1900643827782,
     "baseline_at": "2026-08-25T09:58:57+08:00"
@@ -15,9 +15,9 @@
       "date": "2026-08-24",
       "title": "首次影片增量基線",
       "status": "COMPLETE",
-      "confirmed_new": 20,
-      "content_read_count": 20,
-      "review_count": 8,
+      "confirmed_new": 28,
+      "content_read_count": 28,
+      "review_count": 11,
       "duplicate_groups": 1,
       "failure_count": 0,
       "review_notes": [
@@ -26,7 +26,10 @@
         "IMG_9761、IMG_9760、IMG_9756、IMG_9755 有可辨識人物，身分與公開授權待複核。",
         "IMG_9758、IMG_9757、IMG_9754 出現手寫祈願內容，網站不轉錄文字；公開使用前須複核隱私。",
         "IMG_9761、IMG_9760、IMG_9756 的自動語音辨識信心或合理性不足，不引用具體文字。",
-        "IMG_9767 與 IMG_9768 屬同場景近似素材，非確認的位元級重複檔。"
+        "IMG_9767 與 IMG_9768 屬同場景近似素材，非確認的位元級重複檔。",
+        "IMG_9752 出現可辨識人物與宗教場域，人物授權、地點及行為含義待複核。",
+        "IMG_9752、IMG_9749、IMG_9748、IMG_9747、IMG_9746、IMG_9745 的自動語音文字部分不自然或與畫面關聯不足，不引用為內容事實。",
+        "IMG_9745 收錄同行者交談；精確話意及人物公開授權待人工複核。"
       ],
       "candidate_topics": [
         {
@@ -125,7 +128,15 @@
         {"asset_id":"IMG_9757","source_name":"IMG_9757(2).MOV","media_type":"影片·00:16·1920×1080·60fps","representative_frame":"media/IMG_9757.jpg","representative_timecode":"00:12.0","content_summary":"手持單張木製祈願牌，依序展示正反兩面；其中一面有手寫祈願內容，網站不轉錄，公開前須複核隱私。","content_read":true,"confidence":"medium","confidence_label":"內容高·手寫隱私待複核","categories":["旅遊","寺社文化","繪馬","手持展示","隱私複核"],"clips":[{"timecode":"00:00–00:06","summary":"祈願牌第一面近景，文字不轉錄"},{"timecode":"00:06–00:16","summary":"翻面並展示圖樣面"}]},
         {"asset_id":"IMG_9756","source_name":"IMG_9756(1).MOV","media_type":"影片·00:12·1920×1080·60fps","representative_frame":"media/IMG_9756.jpg","representative_timecode":"00:07.0","content_summary":"戴粉紅漁夫帽的女子在紅色寺社建築前、香爐旁操作手中物件並停留於煙霧附近；儀式細節、地點與人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·儀式人物地點待複核","categories":["旅遊","人物","寺社文化","香爐","現場互動"],"clips":[{"timecode":"00:00–00:07","summary":"人物在香爐旁操作手中物件"},{"timecode":"00:07–00:12","summary":"人物轉身並靠近煙霧區域"}]},
         {"asset_id":"IMG_9755","source_name":"IMG_9755(1).MOV","media_type":"影片·00:55·1920×1080·60fps","representative_frame":"media/IMG_9755.jpg","representative_timecode":"00:30.0","content_summary":"同一寺社香爐場景的長鏡頭：戴粉紅漁夫帽的女子手持紅色達摩，反覆調整、展示並在香爐旁互動，背景有多名遊客；儀式含義、人物授權與地點待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·儀式人物地點待複核","categories":["旅遊","人物","寺社文化","達摩","香爐","長鏡頭"],"clips":[{"timecode":"00:00–00:15","summary":"人物在香爐旁拿取並查看紅色達摩"},{"timecode":"00:15–00:37","summary":"旋轉、調整並向鏡頭展示達摩"},{"timecode":"00:37–00:55","summary":"持達摩繼續在香爐旁互動，背景遊客往來"}]},
-        {"asset_id":"IMG_9754","source_name":"IMG_9754(1).MOV","media_type":"影片·00:15·1920×1080·60fps","representative_frame":"media/IMG_9754.jpg","representative_timecode":"00:00.5","content_summary":"手持紅色達摩近景，緩慢旋轉展示外觀與手寫祈願內容；網站不轉錄文字，公開前須複核隱私。","content_read":true,"confidence":"medium","confidence_label":"內容高·手寫隱私待複核","categories":["旅遊","寺社文化","達摩","手持展示","隱私複核"],"clips":[{"timecode":"00:00–00:05","summary":"達摩正面與外觀近景"},{"timecode":"00:05–00:15","summary":"旋轉展示帶手寫內容的一側，文字不轉錄"}]}
+        {"asset_id":"IMG_9754","source_name":"IMG_9754(1).MOV","media_type":"影片·00:15·1920×1080·60fps","representative_frame":"media/IMG_9754.jpg","representative_timecode":"00:00.5","content_summary":"手持紅色達摩近景，緩慢旋轉展示外觀與手寫祈願內容；網站不轉錄文字，公開前須複核隱私。","content_read":true,"confidence":"medium","confidence_label":"內容高·手寫隱私待複核","categories":["旅遊","寺社文化","達摩","手持展示","隱私複核"],"clips":[{"timecode":"00:00–00:05","summary":"達摩正面與外觀近景"},{"timecode":"00:05–00:15","summary":"旋轉展示帶手寫內容的一側，文字不轉錄"}]},
+        {"asset_id":"IMG_9752","source_name":"IMG_9752(1).MOV","media_type":"影片·00:18·1920×1080·60fps","representative_frame":"media/IMG_9752.jpg","representative_timecode":"00:08.0","content_summary":"戴粉紅漁夫帽的女子在林木環繞的宗教場域、金屬雕像前操作取水設施，期間回頭看向鏡頭；地點、行為含義與人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物地點行為待複核","categories":["旅遊","人物","寺社文化","取水設施","現場互動"],"clips":[{"timecode":"00:00–00:06","summary":"人物走近雕像前的取水設施"},{"timecode":"00:06–00:13","summary":"操作設施並短暫回頭看鏡頭"},{"timecode":"00:13–00:18","summary":"繼續停留於設施前"}]},
+        {"asset_id":"IMG_9751","source_name":"IMG_9751(1).MOV","media_type":"影片·00:06·1920×1080·60fps","representative_frame":"media/IMG_9751.jpg","representative_timecode":"00:03.0","content_summary":"手持一束線香靠近白色蠟燭火焰點燃，尾段將已點燃線香移開；無可可靠辨識的語音。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","寺社文化","線香","點火","動作特寫"],"clips":[{"timecode":"00:00–00:04","summary":"線香靠近蠟燭火焰並點燃"},{"timecode":"00:04–00:06","summary":"將燃燒中的線香移開"}]},
+        {"asset_id":"IMG_9750","source_name":"IMG_9750.MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9750.jpg","representative_timecode":"00:02.0","content_summary":"晴天戶外固定拍攝大型紅色寺院建築與排隊動線，入口可見遊客；具體寺院名稱與地點待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·寺院地點待複核","categories":["旅遊","寺社建築","紅色建築","建立鏡頭","人流"],"clips":[{"timecode":"00:00–00:05","summary":"寺院正面、排隊護欄與入口遊客"}]},
+        {"asset_id":"IMG_9749","source_name":"IMG_9749(1).MOV","media_type":"影片·00:24·1920×1080·60fps","representative_frame":"media/IMG_9749.jpg","representative_timecode":"00:12.0","content_summary":"手持短白蠟燭靠近另一支燃燒中的蠟燭取火，點燃後將兩支蠟燭並排插回金屬燭台；自動語音辨識不採信。","content_read":true,"confidence":"high","confidence_label":"畫面高·轉錄不採信","categories":["旅遊","寺社文化","蠟燭","點火","動作流程"],"clips":[{"timecode":"00:00–00:08","summary":"以既有燭火點燃手中蠟燭"},{"timecode":"00:08–00:17","summary":"移動並對準燭台空位"},{"timecode":"00:17–00:24","summary":"插入燭台後確認兩支蠟燭燃燒"}]},
+        {"asset_id":"IMG_9748","source_name":"IMG_9748(1).MOV","media_type":"影片·00:08·1920×1080·60fps","representative_frame":"media/IMG_9748.jpg","representative_timecode":"00:04.0","content_summary":"手持已燃燒的線香移向大型香爐，將線香插入香灰後短暫調整位置；自動語音辨識信心不足，不引用。","content_read":true,"confidence":"high","confidence_label":"畫面高·轉錄不採信","categories":["旅遊","寺社文化","線香","香爐","動作特寫"],"clips":[{"timecode":"00:00–00:03","summary":"持燃燒線香靠近香爐"},{"timecode":"00:03–00:08","summary":"將線香插入香灰並調整"}]},
+        {"asset_id":"IMG_9747","source_name":"IMG_9747(1).MOV","media_type":"影片·00:35·1920×1080·60fps","representative_frame":"media/IMG_9747.jpg","representative_timecode":"00:17.0","content_summary":"手持一束線香在白色蠟燭旁反覆調整角度取火，末段線香與蠟燭皆有火焰；現場有人聲，但逐字辨識品質不足。","content_read":true,"confidence":"medium","confidence_label":"畫面高·對話文字低","categories":["旅遊","寺社文化","線香","蠟燭","點火","現場聲"],"clips":[{"timecode":"00:00–00:13","summary":"線香靠近蠟燭反覆嘗試點燃"},{"timecode":"00:13–00:27","summary":"調整線香位置並持續取火"},{"timecode":"00:27–00:35","summary":"線香成功燃燒並移離燭火"}]},
+        {"asset_id":"IMG_9746","source_name":"IMG_9746(2).MOV","media_type":"影片·00:02·1920×1080·60fps","representative_frame":"media/IMG_9746.jpg","representative_timecode":"00:01.0","content_summary":"手持大型紅色達摩的極短近景，背景牆面陳列大量大小不同的紅色達摩與遊客；無可靠語音內容。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","寺社文化","達摩","手持展示","建立鏡頭"],"clips":[{"timecode":"00:00–00:02","summary":"大型達摩與背景達摩陳列近景"}]},
+        {"asset_id":"IMG_9745","source_name":"IMG_9745(2).MOV","media_type":"影片·00:13·1920×1080·60fps","representative_frame":"media/IMG_9745.jpg","representative_timecode":"00:07.0","content_summary":"休息區低角度畫面，主要拍攝兩名同行者的腿部、鞋子、碎石邊界與前方綠地，背景有遊客與攤位；收錄同行者交談，精確話意及人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·對話與人物授權待複核","categories":["旅遊","休息片段","同行者","環境聲","過場"],"clips":[{"timecode":"00:00–00:04","summary":"腿部、鞋子與碎石邊界近景"},{"timecode":"00:04–00:13","summary":"鏡頭微幅抬起帶到綠地、遊客與攤位，同行者持續交談"}]}
       ]
     }
   ]
