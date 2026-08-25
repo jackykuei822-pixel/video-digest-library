@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-25T10:32:00+08:00",
+  "updated_at": "2026-08-25T11:15:00+08:00",
   "source_status": "connected",
-  "source_message": "全量基線為 25,170 支影片；已完成 12 支，待處理 25,158 支。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 20 支，待處理 25,150 支。照片與螢幕截圖不建立素材記錄。",
   "inventory": {
     "total": 25170,
-    "completed": 12,
-    "pending": 25158,
+    "completed": 20,
+    "pending": 25150,
     "failed": 0,
     "logical_bytes": 1900643827782,
     "baseline_at": "2026-08-25T09:58:57+08:00"
@@ -15,14 +15,18 @@
       "date": "2026-08-24",
       "title": "首次影片增量基線",
       "status": "COMPLETE",
-      "confirmed_new": 12,
-      "content_read_count": 12,
-      "review_count": 2,
-      "duplicate_groups": 0,
+      "confirmed_new": 20,
+      "content_read_count": 20,
+      "review_count": 8,
+      "duplicate_groups": 1,
       "failure_count": 0,
       "review_notes": [
         "IMG_9797 主要是可辨識人物近景，當事人身分與公開授權待複核。",
-        "IMG_9798 有英語公共運輸廣播，自動辨識置信度不足，不引用具體文字。"
+        "IMG_9798 有英語公共運輸廣播，自動辨識置信度不足，不引用具體文字。",
+        "IMG_9761、IMG_9760、IMG_9756、IMG_9755 有可辨識人物，身分與公開授權待複核。",
+        "IMG_9758、IMG_9757、IMG_9754 出現手寫祈願內容，網站不轉錄文字；公開使用前須複核隱私。",
+        "IMG_9761、IMG_9760、IMG_9756 的自動語音辨識信心或合理性不足，不引用具體文字。",
+        "IMG_9767 與 IMG_9768 屬同場景近似素材，非確認的位元級重複檔。"
       ],
       "candidate_topics": [
         {
@@ -113,7 +117,15 @@
         {"asset_id":"IMG_9774","source_name":"IMG_9774(1).MOV","media_type":"影片·00:20·1920×1080·60fps","representative_frame":"media/IMG_9774.jpg","representative_timecode":"00:15.0","content_summary":"室內透過窗戶拍攝，前段有另一列車通過，後段顯示城市、田地、遠山與天空。辨識出的日語與畫面不符，不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·轉錄不採信","categories":["旅遊","列車窗景","交會","城郊景觀"],"clips":[{"timecode":"00:00–00:10","summary":"對向列車通過"},{"timecode":"00:10–00:20","summary":"城郊、田地與遠山"}]},
         {"asset_id":"copy_7B22D8DD","source_name":"copy_7B22D8DD-0E95-4D84-9812-4695B66CB7BD.mov","media_type":"影片·00:07·1080×1920·30fps","representative_frame":"media/copy_7B22D8DD.jpg","representative_timecode":"00:05.0","content_summary":"戶外池畔手持兩張明信片，翻到正面展示圖案，背景為綠地、紅橋與建築。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","明信片","紀念品","池畔"],"clips":[{"timecode":"00:00–00:02","summary":"池畔與明信片背面"},{"timecode":"00:02–00:07","summary":"翻面展示圖案"}]},
         {"asset_id":"IMG_9772","source_name":"IMG_9772(2).MOV","media_type":"影片·00:10·1920×1080·60fps","representative_frame":"media/IMG_9772.jpg","representative_timecode":"00:05.0","content_summary":"戶外手持兩張相同的邊框明信片，全段微幅調整角度，背景為樹木與紅色建築。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","明信片","紀念品","產品近景"],"clips":[{"timecode":"00:00–00:10","summary":"雙張明信片持續近景"}]},
-        {"asset_id":"IMG_9768","source_name":"IMG_9768(2).MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9768.jpg","representative_timecode":"00:02.5","content_summary":"手持 Baskin-Robbins 小杯綠色冰淇淋與兩支木製小匙，背景為自動販賣機與紅白圖案。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","甜點","冰淇淋","產品近景"],"clips":[{"timecode":"00:00–00:05","summary":"冰淇淋與木匙持續近景"}]}
+        {"asset_id":"IMG_9768","source_name":"IMG_9768(2).MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9768.jpg","representative_timecode":"00:02.5","content_summary":"手持 Baskin-Robbins 小杯綠色冰淇淋與兩支木製小匙，背景為自動販賣機與紅白圖案。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","甜點","冰淇淋","產品近景"],"clips":[{"timecode":"00:00–00:05","summary":"冰淇淋與木匙持續近景"}]},
+        {"asset_id":"IMG_9767","source_name":"IMG_9767(3).MOV","media_type":"影片·00:03·1920×1080·60fps","representative_frame":"media/IMG_9767.jpg","representative_timecode":"00:01.5","content_summary":"兩手共同托住一杯 Baskin-Robbins 綠色冰淇淋與木匙，背景為紅白色自動販賣機；與 IMG_9768 為同場景近似鏡頭。","content_read":true,"confidence":"high","confidence_label":"畫面高·近似組待選","categories":["旅遊","甜點","冰淇淋","產品近景","近似素材"],"clips":[{"timecode":"00:00–00:03","summary":"冰淇淋、雙手與木匙持續近景"}]},
+        {"asset_id":"IMG_9761","source_name":"IMG_9761(1).MOV","media_type":"影片·00:15·1920×1080·60fps","representative_frame":"media/IMG_9761.jpg","representative_timecode":"00:07.0","content_summary":"戶外巨木旁，一名背包男子環抱樹幹並持續擺姿勢，尾段起身整理背包；具體地點、人物身分與授權待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·人物地點授權待複核","categories":["旅遊","人物","巨木","互動","擺拍"],"clips":[{"timecode":"00:00–00:11","summary":"人物環抱巨木並維持姿勢"},{"timecode":"00:11–00:15","summary":"起身並整理背包"}]},
+        {"asset_id":"IMG_9760","source_name":"IMG_9760(2).MOV","media_type":"影片·00:07·1920×1080·60fps","representative_frame":"media/IMG_9760.jpg","representative_timecode":"00:03.5","content_summary":"戴粉紅漁夫帽的女子在戶外環抱巨木擺拍，全段為同一動作的細微變化；具體地點、人物身分與授權待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·人物地點授權待複核","categories":["旅遊","人物","巨木","互動","擺拍"],"clips":[{"timecode":"00:00–00:07","summary":"人物環抱巨木並微調姿勢"}]},
+        {"asset_id":"IMG_9758","source_name":"IMG_9758(1).MOV","media_type":"影片·00:04·1920×1080·60fps","representative_frame":"media/IMG_9758.jpg","representative_timecode":"00:02.0","content_summary":"近距離掃過繪馬祈願牌與達摩擺設；牌面含手寫私人文字，網站不轉錄，地點與公開使用方式待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·文字隱私與地點待複核","categories":["旅遊","寺社文化","繪馬","達摩","隱私複核"],"clips":[{"timecode":"00:00–00:04","summary":"祈願牌與達摩近景，手寫內容不轉錄"}]},
+        {"asset_id":"IMG_9757","source_name":"IMG_9757(2).MOV","media_type":"影片·00:16·1920×1080·60fps","representative_frame":"media/IMG_9757.jpg","representative_timecode":"00:12.0","content_summary":"手持單張木製祈願牌，依序展示正反兩面；其中一面有手寫祈願內容，網站不轉錄，公開前須複核隱私。","content_read":true,"confidence":"medium","confidence_label":"內容高·手寫隱私待複核","categories":["旅遊","寺社文化","繪馬","手持展示","隱私複核"],"clips":[{"timecode":"00:00–00:06","summary":"祈願牌第一面近景，文字不轉錄"},{"timecode":"00:06–00:16","summary":"翻面並展示圖樣面"}]},
+        {"asset_id":"IMG_9756","source_name":"IMG_9756(1).MOV","media_type":"影片·00:12·1920×1080·60fps","representative_frame":"media/IMG_9756.jpg","representative_timecode":"00:07.0","content_summary":"戴粉紅漁夫帽的女子在紅色寺社建築前、香爐旁操作手中物件並停留於煙霧附近；儀式細節、地點與人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·儀式人物地點待複核","categories":["旅遊","人物","寺社文化","香爐","現場互動"],"clips":[{"timecode":"00:00–00:07","summary":"人物在香爐旁操作手中物件"},{"timecode":"00:07–00:12","summary":"人物轉身並靠近煙霧區域"}]},
+        {"asset_id":"IMG_9755","source_name":"IMG_9755(1).MOV","media_type":"影片·00:55·1920×1080·60fps","representative_frame":"media/IMG_9755.jpg","representative_timecode":"00:30.0","content_summary":"同一寺社香爐場景的長鏡頭：戴粉紅漁夫帽的女子手持紅色達摩，反覆調整、展示並在香爐旁互動，背景有多名遊客；儀式含義、人物授權與地點待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·儀式人物地點待複核","categories":["旅遊","人物","寺社文化","達摩","香爐","長鏡頭"],"clips":[{"timecode":"00:00–00:15","summary":"人物在香爐旁拿取並查看紅色達摩"},{"timecode":"00:15–00:37","summary":"旋轉、調整並向鏡頭展示達摩"},{"timecode":"00:37–00:55","summary":"持達摩繼續在香爐旁互動，背景遊客往來"}]},
+        {"asset_id":"IMG_9754","source_name":"IMG_9754(1).MOV","media_type":"影片·00:15·1920×1080·60fps","representative_frame":"media/IMG_9754.jpg","representative_timecode":"00:00.5","content_summary":"手持紅色達摩近景，緩慢旋轉展示外觀與手寫祈願內容；網站不轉錄文字，公開前須複核隱私。","content_read":true,"confidence":"medium","confidence_label":"內容高·手寫隱私待複核","categories":["旅遊","寺社文化","達摩","手持展示","隱私複核"],"clips":[{"timecode":"00:00–00:05","summary":"達摩正面與外觀近景"},{"timecode":"00:05–00:15","summary":"旋轉展示帶手寫內容的一側，文字不轉錄"}]}
       ]
     }
   ]
