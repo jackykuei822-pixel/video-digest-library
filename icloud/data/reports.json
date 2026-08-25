@@ -1,52 +1,99 @@
 {
-  "updated_at": "2026-08-25T10:12:00+08:00",
+  "updated_at": "2026-08-25T10:32:00+08:00",
   "source_status": "connected",
-  "source_message": "已從 Windows iCloud Photos 建立首次增量基線；共 17 件，4 支影片已讀取完整時間軸與音軌，13 張圖片已逐張檢視。",
+  "source_message": "已建立影片專用增量索引；本批 4 支影片均已讀取完整時間軸與音軌。照片與螢幕截圖不建立素材記錄。",
   "reports": [
     {
-      "date": "2026-08-25", "title": "每日新增", "status": "COMPLETE",
-      "confirmed_new": 2, "content_read_count": 2, "review_count": 2, "duplicate_groups": 0, "failure_count": 0,
+      "date": "2026-08-24",
+      "title": "首次影片增量基線",
+      "status": "COMPLETE",
+      "confirmed_new": 4,
+      "content_read_count": 4,
+      "review_count": 2,
+      "duplicate_groups": 0,
+      "failure_count": 0,
       "review_notes": [
-        "IMG_9842 含公司業績排名、員工姓名與金額，為敏感工作資料，不建議公開。",
-        "IMG_9843 含付款金額與多張卡片末碼，為敏感財務畫面，不建議公開。"
-      ],
-      "candidate_topics": [],
-      "assets": [
-        {"asset_id":"IMG_9842","media_type":"圖片·螢幕截圖","content_summary":"公司年度業績快報試算表，含排名、組織、姓名與業績；公開授權未確認。","content_read":true,"confidence":"high","confidence_label":"內容高信心·敏感","categories":["工作","業績資料","敏感","不公開"],"clips":[]},
-        {"asset_id":"IMG_9843","media_type":"圖片·螢幕截圖","content_summary":"第三方付款頁面，顯示付款金額、餘額不足、卡別與卡片末碼。","content_read":true,"confidence":"high","confidence_label":"內容高信心·敏感","categories":["付款","財務","敏感","不公開"],"clips":[]}
-      ]
-    },
-    {
-      "date": "2026-08-24", "title": "首次增量基線", "status": "COMPLETE",
-      "confirmed_new": 15, "content_read_count": 15, "review_count": 8, "duplicate_groups": 1, "failure_count": 0,
-      "review_notes": [
-        "登機證含姓名、訂位代號、會員編號與 QR code，不得直接放入公開影片。",
-        "訊息截圖含電話號碼、帳務與專案序號，不得直接公開。",
-        "多張人物近景與自拍的當事人身分、關係及公開授權未確認。",
-        "IMG_9798 有英語公共運輸廣播，自動辨識置信度不足，不引用具體文字。",
-        "IMG_9793 的 GPS 與月台指標支持大阪市區車站場景，精確車站名仍待複核。"
+        "IMG_9797 主要是可辨識人物近景，當事人身分與公開授權待複核。",
+        "IMG_9798 有英語公共運輸廣播，自動辨識置信度不足，不引用具體文字。"
       ],
       "candidate_topics": [
-        {"title":"從大阪市區到高雄：一段返程的交通日記","angle":"以查路線、近鐵／南海電鐵、機場與飛行翼景串成完整返程。","hook":"從大阪到高雄，我們實際花了多少段移動？","assets":["IMG_9794","IMG_9795","IMG_9796","IMG_9793","IMG_9797","IMG_9798","copy_18FBE7C5"],"suggested_length":"45–60 秒","platform":"IG Reels / Shorts","reason":"已具備資訊開場、市區移動、人物反應、飛行與落地結尾。"},
-        {"title":"36 秒看完一次起飛與降落","angle":"保留天氣從晴朗、入雲到雨中降落的視覺轉折。","hook":"起飛還是藍天，降落時已經是另一個天氣。","assets":["copy_18FBE7C5"],"suggested_length":"20–30 秒","platform":"Reels / TikTok / Shorts","reason":"單一鏡頭已有明確起承轉合，不倚賴地點推測。"},
-        {"title":"旅程的空白時間","angle":"用等車、車廂人物與窗外民宅做低敘事感過場短片。","hook":"旅行真正記得的，常常是這些沒有安排的時刻。","assets":["IMG_9793","IMG_9797","IMG_9798"],"suggested_length":"15–25 秒","platform":"IG Reels","reason":"交通環境、人物近景與移動窗景有一致情緒。"}
+        {
+          "title": "從大阪列車到起飛：返程移動日記",
+          "angle": "只用影片內容，以月台列車、車廂人物、移動窗景與飛行翼景串起離開城市的過程。",
+          "hook": "旅程的最後一天，是一段又一段的移動。",
+          "assets": ["IMG_9793", "IMG_9797", "IMG_9798", "copy_18FBE7C5"],
+          "suggested_length": "35–50 秒",
+          "platform": "IG Reels / Shorts",
+          "reason": "四支影片可以依月台、車廂、窗景、空中排成清楚移動順序。"
+        },
+        {
+          "title": "36 秒看完一次起飛與降落",
+          "angle": "保留天氣從晴朗、入雲到雨中降落的視覺轉折。",
+          "hook": "起飛還是藍天，降落時已經是另一個天氣。",
+          "assets": ["copy_18FBE7C5"],
+          "suggested_length": "20–30 秒",
+          "platform": "Reels / TikTok / Shorts",
+          "reason": "單支影片內已有滑行、起飛、爬升、轉天氣與降落。"
+        },
+        {
+          "title": "旅程的空白時間",
+          "angle": "用等車、車廂人物與列車窗外景觀，做低敘事感的過場短片。",
+          "hook": "旅行真正記得的，常常是這些沒有安排的時刻。",
+          "assets": ["IMG_9793", "IMG_9797", "IMG_9798"],
+          "suggested_length": "15–25 秒",
+          "platform": "IG Reels",
+          "reason": "三支影片的交通環境、人物近景與移動窗景有一致情緒。"
+        }
       ],
       "assets": [
-        {"asset_id":"IMG_9793","media_type":"影片·00:05·1920×1080·60fps","content_summary":"月台上近距離拍攝紅白色通勤列車，車門關閉後向右駛離。","content_read":true,"confidence":"high","confidence_label":"內容高·車站待複核","categories":["旅遊","交通","列車","過場"],"clips":[{"timecode":"00:00–00:02","summary":"車身與月台近景"},{"timecode":"00:02–00:05","summary":"車頭出現並駛離"}]},
-        {"asset_id":"IMG_9794","media_type":"圖片·登機證","content_summary":"2026-08-24 由 KIX 飛往 KHH 的登機證；含完整姓名、訂位、會員資訊與 QR code。","content_read":true,"confidence":"high","confidence_label":"內容高·敏感","categories":["旅遊","航班","資訊畫面","敏感"],"clips":[]},
-        {"asset_id":"IMG_9795","media_type":"圖片·路線截圖","content_summary":"大阪市區前往機場方向的大眾運輸搜尋結果，包含近鐵、千日前線與南海鐵路方案。","content_read":true,"confidence":"high","confidence_label":"內容高信心","categories":["旅遊","行程","大阪","交通規劃"],"clips":[]},
-        {"asset_id":"IMG_9796","media_type":"圖片·地圖截圖","content_summary":"Google Maps 顯示大阪難波、近鐵日本橋與南海難波周邊轉乘，目的地為 Terminal 1 Departures。","content_read":true,"confidence":"high","confidence_label":"內容高信心","categories":["旅遊","地圖","大阪難波","機場移動"],"clips":[]},
-        {"asset_id":"IMG_9797","media_type":"影片·00:11·1920×1080·60fps","content_summary":"車廂內低角度拍攝戴粉紅漁夫帽人物，中後段張眼看向鏡頭，周邊有其他乘客。","content_read":true,"confidence":"high","confidence_label":"畫面高·授權待複核","categories":["旅遊","人物","車廂","反應鏡頭"],"clips":[{"timecode":"00:00–00:07","summary":"人物閉眼／休息近景"},{"timecode":"00:07–00:11","summary":"張眼看鏡頭後轉頭"}]},
-        {"asset_id":"IMG_9798","media_type":"影片·00:12·1920×1080·60fps","content_summary":"行進中列車：開頭帶到乘客與行李，之後為窗外住宅與工業建築。有英語廣播，具體文字信心不足。","content_read":true,"confidence":"medium","confidence_label":"畫面高·廣播文字低","categories":["旅遊","列車窗景","城市過場","現場聲"],"clips":[{"timecode":"00:00–00:02","summary":"乘客與行李建立畫面"},{"timecode":"00:02–00:12","summary":"窗外移動景觀與廣播"}]},
-        {"asset_id":"IMG_9831","media_type":"圖片·訊息截圖","content_summary":"手機訊息畫面，含保險廣告、Netflix 帳單與 momo 專案序號；含電話與帳務資訊。","content_read":true,"confidence":"high","confidence_label":"內容高·敏感","categories":["訊息","帳務","敏感","不公開"],"clips":[]},
-        {"asset_id":"IMG_9832","media_type":"圖片·人物自拍","content_summary":"室內正面人物近距離自拍，背景為埃及風格壁面裝飾；身分與場所未確認。","content_read":true,"confidence":"high","confidence_label":"畫面高·身分待複核","categories":["人物","自拍","室內","授權待複核"],"clips":[]},
-        {"asset_id":"IMG_9833","media_type":"圖片·人物自拍","content_summary":"車內正面人物近景自拍，背景可見街道與高架軸道；身分與地點未確認。","content_read":true,"confidence":"high","confidence_label":"畫面高·身分待複核","categories":["人物","自拍","車內","授權待複核"],"clips":[]},
-        {"asset_id":"IMG_9836","media_type":"圖片·相簿截圖","content_summary":"手機圖庫縮圖總覽，可見列車、登機資訊、路線、人物與飛機翼景；只用於對帳。","content_read":true,"confidence":"high","confidence_label":"內容高信心","categories":["索引證據","相簿","不作主題判斷"],"clips":[]},
-        {"asset_id":"IMG_9837","media_type":"圖片·餐點","content_summary":"桌面上的便利商店麻醬涼麵與四川風豆腐飯，後方有粉紫配色鍵盤。","content_read":true,"confidence":"high","confidence_label":"內容高信心","categories":["日常","餐飲","便利商店","產品近景"],"clips":[]},
-        {"asset_id":"copy_18FBE7C5","media_type":"影片·00:36·1080×1920·30fps","content_summary":"垂直飛機翼景，完整涵蓋滑行起飛、藍天雲層、入雲轉暗、城市上空下降與雨中降落。無可靠語音轉錄。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","飛行","飛機翼景","起飛到降落","結尾"],"clips":[{"timecode":"00:00–00:05","summary":"滑行並起飛"},{"timecode":"00:05–00:14","summary":"藍天、地景與雲層爬升"},{"timecode":"00:14–00:23","summary":"穿雲後天氣轉暗"},{"timecode":"00:23–00:31","summary":"入雲、城市上空下降"},{"timecode":"00:31–00:36","summary":"陰雨跑道降落"}]},
-        {"asset_id":"IMG_9839","media_type":"圖片·寵物","content_summary":"長毛貓在柔軟布料上卷曲熟睡的近景，畫面清晰。","content_read":true,"confidence":"high","confidence_label":"內容高信心","categories":["寵物","貓","睡眠","日常"],"clips":[]},
-        {"asset_id":"IMG_9840","media_type":"圖片·人物自拍","content_summary":"躺床人物與綠灰色布偶近距離合照，可見上身紋身；公開授權未確認。","content_read":true,"confidence":"high","confidence_label":"畫面高·授權待複核","categories":["人物","自拍","布偶","私人場景"],"clips":[]},
-        {"asset_id":"IMG_9841","media_type":"圖片·通話截圖","content_summary":"視訊通話畫面，主畫面與小畫面各有一名人物；身分、關係與授權皆待確認。","content_read":true,"confidence":"high","confidence_label":"畫面高·關係不推測","categories":["人物","視訊通話","私人內容","授權待複核"],"clips":[]}
+        {
+          "asset_id": "IMG_9793",
+          "media_type": "影片·00:05·1920×1080·60fps",
+          "representative_frame": "media/IMG_9793.jpg",
+          "representative_timecode": "00:03.2",
+          "content_summary": "月台上近距離拍攝紅白色通勤列車，車門關閉後向右駛離。",
+          "content_read": true,
+          "confidence": "high",
+          "confidence_label": "內容高·車站待複核",
+          "categories": ["旅遊", "交通", "列車", "過場"],
+          "clips": [{"timecode":"00:00–00:02","summary":"車身與月台近景"},{"timecode":"00:02–00:05","summary":"車頭出現並駛離"}]
+        },
+        {
+          "asset_id": "IMG_9797",
+          "media_type": "影片·00:11·1920×1080·60fps",
+          "representative_frame": "media/IMG_9797.jpg",
+          "representative_timecode": "00:08.4",
+          "content_summary": "車廂內低角度拍攝戴粉紅漁夫帽人物，中後段張眼看向鏡頭，周邊有其他乘客。",
+          "content_read": true,
+          "confidence": "high",
+          "confidence_label": "畫面高·授權待複核",
+          "categories": ["旅遊", "人物", "車廂", "反應鏡頭"],
+          "clips": [{"timecode":"00:00–00:07","summary":"人物閉眼／休息近景"},{"timecode":"00:07–00:11","summary":"張眼看鏡頭後轉頭"}]
+        },
+        {
+          "asset_id": "IMG_9798",
+          "media_type": "影片·00:12·1920×1080·60fps",
+          "representative_frame": "media/IMG_9798.jpg",
+          "representative_timecode": "00:06.0",
+          "content_summary": "行進中列車：開頭帶到乘客與行李，之後為窗外住宅與工業建築。有英語廣播，具體文字信心不足。",
+          "content_read": true,
+          "confidence": "medium",
+          "confidence_label": "畫面高·廣播文字低",
+          "categories": ["旅遊", "列車窗景", "城市過場", "現場聲"],
+          "clips": [{"timecode":"00:00–00:02","summary":"乘客與行李建立畫面"},{"timecode":"00:02–00:12","summary":"窗外移動景觀與廣播"}]
+        },
+        {
+          "asset_id": "copy_18FBE7C5",
+          "media_type": "影片·00:36·1080×1920·30fps",
+          "representative_frame": "media/copy_18FBE7C5.jpg",
+          "representative_timecode": "00:09.0",
+          "content_summary": "垂直飛機翼景，完整涵蓋滑行起飛、藍天雲層、入雲轉暗、城市上空下降與雨中降落。無可靠語音轉錄。",
+          "content_read": true,
+          "confidence": "high",
+          "confidence_label": "畫面高信心",
+          "categories": ["旅遊", "飛行", "飛機翼景", "起飛到降落", "結尾"],
+          "clips": [{"timecode":"00:00–00:05","summary":"滑行並起飛"},{"timecode":"00:05–00:14","summary":"藍天、地景與雲層爬升"},{"timecode":"00:14–00:23","summary":"穿雲後天氣轉暗"},{"timecode":"00:23–00:31","summary":"入雲、城市上空下降"},{"timecode":"00:31–00:36","summary":"陰雨跑道降落"}]
+        }
       ]
     }
   ]
