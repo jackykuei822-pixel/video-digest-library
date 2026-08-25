@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-25T11:45:00+08:00",
+  "updated_at": "2026-08-25T21:05:00+08:00",
   "source_status": "connected",
-  "source_message": "全量基線為 25,170 支影片；已完成 28 支，待處理 25,142 支。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 36 支，待處理 25,134 支。照片與螢幕截圖不建立素材記錄。",
   "inventory": {
     "total": 25170,
-    "completed": 28,
-    "pending": 25142,
+    "completed": 36,
+    "pending": 25134,
     "failed": 0,
     "logical_bytes": 1900643827782,
     "baseline_at": "2026-08-25T09:58:57+08:00"
@@ -15,10 +15,10 @@
       "date": "2026-08-24",
       "title": "首次影片增量基線",
       "status": "COMPLETE",
-      "confirmed_new": 28,
-      "content_read_count": 28,
-      "review_count": 11,
-      "duplicate_groups": 1,
+      "confirmed_new": 36,
+      "content_read_count": 36,
+      "review_count": 16,
+      "duplicate_groups": 2,
       "failure_count": 0,
       "review_notes": [
         "IMG_9797 主要是可辨識人物近景，當事人身分與公開授權待複核。",
@@ -29,7 +29,12 @@
         "IMG_9767 與 IMG_9768 屬同場景近似素材，非確認的位元級重複檔。",
         "IMG_9752 出現可辨識人物與宗教場域，人物授權、地點及行為含義待複核。",
         "IMG_9752、IMG_9749、IMG_9748、IMG_9747、IMG_9746、IMG_9745 的自動語音文字部分不自然或與畫面關聯不足，不引用為內容事實。",
-        "IMG_9745 收錄同行者交談；精確話意及人物公開授權待人工複核。"
+        "IMG_9745 收錄同行者交談；精確話意及人物公開授權待人工複核。",
+        "CFCE081B 與 16113919 為同場景、同長度的近似素材，但 SHA-256 不同，非位元級重複檔。",
+        "IMG_9740、IMG_9685、IMG_9719 有可辨識人物，身分與公開授權待複核。",
+        "IMG_9740 的達摩帶手寫內容；代表畫面已避開文字，網站不轉錄，公開使用前仍須複核隱私。",
+        "IMG_9721 為室內沉浸式燈光展示，場館、展覽名稱及公開使用限制待複核。",
+        "第五批自動語音辨識多處信心不足或語句不自然，不引用為內容事實；兩支 UUID 影片確認無音軌。"
       ],
       "candidate_topics": [
         {
@@ -136,7 +141,15 @@
         {"asset_id":"IMG_9748","source_name":"IMG_9748(1).MOV","media_type":"影片·00:08·1920×1080·60fps","representative_frame":"media/IMG_9748.jpg","representative_timecode":"00:04.0","content_summary":"手持已燃燒的線香移向大型香爐，將線香插入香灰後短暫調整位置；自動語音辨識信心不足，不引用。","content_read":true,"confidence":"high","confidence_label":"畫面高·轉錄不採信","categories":["旅遊","寺社文化","線香","香爐","動作特寫"],"clips":[{"timecode":"00:00–00:03","summary":"持燃燒線香靠近香爐"},{"timecode":"00:03–00:08","summary":"將線香插入香灰並調整"}]},
         {"asset_id":"IMG_9747","source_name":"IMG_9747(1).MOV","media_type":"影片·00:35·1920×1080·60fps","representative_frame":"media/IMG_9747.jpg","representative_timecode":"00:17.0","content_summary":"手持一束線香在白色蠟燭旁反覆調整角度取火，末段線香與蠟燭皆有火焰；現場有人聲，但逐字辨識品質不足。","content_read":true,"confidence":"medium","confidence_label":"畫面高·對話文字低","categories":["旅遊","寺社文化","線香","蠟燭","點火","現場聲"],"clips":[{"timecode":"00:00–00:13","summary":"線香靠近蠟燭反覆嘗試點燃"},{"timecode":"00:13–00:27","summary":"調整線香位置並持續取火"},{"timecode":"00:27–00:35","summary":"線香成功燃燒並移離燭火"}]},
         {"asset_id":"IMG_9746","source_name":"IMG_9746(2).MOV","media_type":"影片·00:02·1920×1080·60fps","representative_frame":"media/IMG_9746.jpg","representative_timecode":"00:01.0","content_summary":"手持大型紅色達摩的極短近景，背景牆面陳列大量大小不同的紅色達摩與遊客；無可靠語音內容。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","寺社文化","達摩","手持展示","建立鏡頭"],"clips":[{"timecode":"00:00–00:02","summary":"大型達摩與背景達摩陳列近景"}]},
-        {"asset_id":"IMG_9745","source_name":"IMG_9745(2).MOV","media_type":"影片·00:13·1920×1080·60fps","representative_frame":"media/IMG_9745.jpg","representative_timecode":"00:07.0","content_summary":"休息區低角度畫面，主要拍攝兩名同行者的腿部、鞋子、碎石邊界與前方綠地，背景有遊客與攤位；收錄同行者交談，精確話意及人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·對話與人物授權待複核","categories":["旅遊","休息片段","同行者","環境聲","過場"],"clips":[{"timecode":"00:00–00:04","summary":"腿部、鞋子與碎石邊界近景"},{"timecode":"00:04–00:13","summary":"鏡頭微幅抬起帶到綠地、遊客與攤位，同行者持續交談"}]}
+        {"asset_id":"IMG_9745","source_name":"IMG_9745(2).MOV","media_type":"影片·00:13·1920×1080·60fps","representative_frame":"media/IMG_9745.jpg","representative_timecode":"00:07.0","content_summary":"休息區低角度畫面，主要拍攝兩名同行者的腿部、鞋子、碎石邊界與前方綠地，背景有遊客與攤位；收錄同行者交談，精確話意及人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·對話與人物授權待複核","categories":["旅遊","休息片段","同行者","環境聲","過場"],"clips":[{"timecode":"00:00–00:04","summary":"腿部、鞋子與碎石邊界近景"},{"timecode":"00:04–00:13","summary":"鏡頭微幅抬起帶到綠地、遊客與攤位，同行者持續交談"}]},
+        {"asset_id":"IMG_9744","source_name":"IMG_9744(2).MOV","media_type":"影片·00:04·1920×1080·60fps","representative_frame":"media/IMG_9744.jpg","representative_timecode":"00:02.0","content_summary":"池畔先拍攝綠色水面、石岸與對岸紅橋，隨後手持兩張空白邊框明信片進入畫面；具體地點待複核，語音辨識不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·地點與語音待複核","categories":["旅遊","池畔","紅橋","明信片","手持展示"],"clips":[{"timecode":"00:00–00:01","summary":"池水、石岸與對岸紅橋建立畫面"},{"timecode":"00:01–00:04","summary":"兩張空白邊框明信片進入前景"}]},
+        {"asset_id":"CFCE081B-D3AC-4BD0-BF9E-51ABBA701C77","source_name":"CFCE081B-D3AC-4BD0-BF9E-51ABBA701C77.mov","media_type":"影片·00:06·1080×1920·無音軌","representative_frame":"media/CFCE081B-D3AC-4BD0-BF9E-51ABBA701C77.jpg","representative_timecode":"00:03.0","content_summary":"室內人流與排隊動線前，手持紅色達摩跟拍前方長髮人物背影；全片無音軌，場域、人物身分及授權待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·人物場域待複核","categories":["旅遊","達摩","室內人流","跟拍","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:06","summary":"手持達摩跟隨前方人物穿過室內排隊區"}]},
+        {"asset_id":"16113919-B691-4A45-AA38-113C3560CD1A","source_name":"16113919-B691-4A45-AA38-113C3560CD1A.mov","media_type":"影片·00:06·1080×1920·無音軌","representative_frame":"media/16113919-B691-4A45-AA38-113C3560CD1A.jpg","representative_timecode":"00:03.0","content_summary":"室內排隊區近距離展示紅色達摩，前景達摩持續佔據主要畫面，背景可見同行女子側臉與人流；全片無音軌，人物授權與場域待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·人物場域待複核","categories":["旅遊","達摩","室內人流","產品近景","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:06","summary":"紅色達摩持續近景，背景為同行人物與排隊人流"}]},
+        {"asset_id":"IMG_9740","source_name":"IMG_9740.MOV","media_type":"影片·00:11·1920×1080·60fps","representative_frame":"media/IMG_9740.jpg","representative_timecode":"00:08.0","content_summary":"室內房間中，一名穿白色上衣的女子蹲在地上整理紅色衣物與行李；前景有帶手寫內容的紅色達摩，網站不轉錄文字，人物授權待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·人物授權與手寫隱私待複核","categories":["旅遊","人物","整理行李","達摩","室內生活","隱私複核"],"clips":[{"timecode":"00:00–00:07","summary":"人物蹲地整理紅色衣物與行李"},{"timecode":"00:07–00:11","summary":"人物抬頭回應鏡頭後繼續整理，前景手寫內容不轉錄"}]},
+        {"asset_id":"IMG_9685","source_name":"IMG_9685.MOV","media_type":"影片·00:16·1920×1080·60fps","representative_frame":"media/IMG_9685.jpg","representative_timecode":"00:10.0","content_summary":"餐廳桌前近距離拍攝一名男子進食，依序夾起麵條、低頭吃麵、再夾取肉片，後段對鏡頭比讚；人物授權與餐廳地點待複核，語音辨識不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物授權與地點待複核","categories":["旅遊","人物","餐飲","吃麵","反應鏡頭"],"clips":[{"timecode":"00:00–00:06","summary":"夾起麵條並低頭吃麵"},{"timecode":"00:06–00:12","summary":"夾取肉片進食"},{"timecode":"00:12–00:16","summary":"咀嚼後看鏡頭並比讚"}]},
+        {"asset_id":"IMG_9721","source_name":"IMG_9721(3).MOV","media_type":"影片·00:41·1920×1080·60fps","representative_frame":"media/IMG_9721.jpg","representative_timecode":"00:20.0","content_summary":"黑暗室內的沉浸式燈光展示：地面與遠方多排白藍色光條由稀疏轉為放射狀排列，鏡頭緩慢移動，尾段帶到大型數字 16；場館與展覽名稱待複核，語音文字不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·展覽場館待複核","categories":["旅遊","展覽","沉浸式空間","燈光藝術","長鏡頭"],"clips":[{"timecode":"00:00–00:12","summary":"黑暗空間中遠方與地面光條逐漸出現"},{"timecode":"00:12–00:30","summary":"放射狀白藍光條延伸，鏡頭緩慢移動"},{"timecode":"00:30–00:41","summary":"光條排列變化，尾段帶到大型數字 16"}]},
+        {"asset_id":"IMG_9720","source_name":"IMG_9720(2).MOV","media_type":"影片·00:03·1920×1080·60fps","representative_frame":"media/IMG_9720.jpg","representative_timecode":"00:01.5","content_summary":"固定近景拍攝霧面玻璃上的男性洗手間圖示，玻璃後有人影移動，右側入口短暫出現路人；具體場域待複核，無可靠語音。","content_read":true,"confidence":"medium","confidence_label":"畫面高·場域待複核","categories":["旅遊","室內空間","洗手間標示","過場","人影"],"clips":[{"timecode":"00:00–00:03","summary":"男性洗手間圖示、霧面玻璃人影與入口路人"}]},
+        {"asset_id":"IMG_9719","source_name":"IMG_9719(1).MOV","media_type":"影片·00:12·1920×1080·60fps","representative_frame":"media/IMG_9719.jpg","representative_timecode":"00:06.0","content_summary":"高樓室內鏡面前，一名背包男子持手機自拍；鏡頭轉向窗外夜間城市景觀，再回到玻璃反射中的人物與夜景。人物授權、建築與城市地點待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物建築城市待複核","categories":["旅遊","人物","自拍","高樓夜景","玻璃反射"],"clips":[{"timecode":"00:00–00:04","summary":"鏡面中的背包男子持手機自拍"},{"timecode":"00:04–00:08","summary":"鏡頭轉向窗外城市夜景"},{"timecode":"00:08–00:12","summary":"玻璃反射疊合人物與夜景"}]}
       ]
     }
   ]
