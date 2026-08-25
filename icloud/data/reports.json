@@ -1,11 +1,11 @@
 {
   "updated_at": "2026-08-25T10:32:00+08:00",
   "source_status": "connected",
-  "source_message": "全量基線為 25,170 支影片；已完成 4 支，待處理 25,166 支。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 12 支，待處理 25,158 支。照片與螢幕截圖不建立素材記錄。",
   "inventory": {
     "total": 25170,
-    "completed": 4,
-    "pending": 25166,
+    "completed": 12,
+    "pending": 25158,
     "failed": 0,
     "logical_bytes": 1900643827782,
     "baseline_at": "2026-08-25T09:58:57+08:00"
@@ -15,8 +15,8 @@
       "date": "2026-08-24",
       "title": "首次影片增量基線",
       "status": "COMPLETE",
-      "confirmed_new": 4,
-      "content_read_count": 4,
+      "confirmed_new": 12,
+      "content_read_count": 12,
       "review_count": 2,
       "duplicate_groups": 0,
       "failure_count": 0,
@@ -105,7 +105,15 @@
           "confidence_label": "畫面高信心",
           "categories": ["旅遊", "飛行", "飛機翼景", "起飛到降落", "結尾"],
           "clips": [{"timecode":"00:00–00:05","summary":"滑行並起飛"},{"timecode":"00:05–00:14","summary":"藍天、地景與雲層爬升"},{"timecode":"00:14–00:23","summary":"穿雲後天氣轉暗"},{"timecode":"00:23–00:31","summary":"入雲、城市上空下降"},{"timecode":"00:31–00:36","summary":"陰雨跑道降落"}]
-        }
+        },
+        {"asset_id":"IMG_9789","source_name":"IMG_9789.MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9789.jpg","representative_timecode":"00:04.0","content_summary":"月台上人物手持一盒紅色水果，同時用手機取景；對面站名牌顯示古市。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","交通","水果","幕後"],"clips":[{"timecode":"00:00–00:05","summary":"手持水果在月台拍攝"}]},
+        {"asset_id":"IMG_9785","source_name":"IMG_9785.MOV","media_type":"影片·00:09·1920×1080·60fps","representative_frame":"media/IMG_9785.jpg","representative_timecode":"00:06.0","content_summary":"餐廳桌面運鏡，依序帶到調味料、鍋物、生肉盤與紅色麵料食物；無可靠語音轉錄。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","餐飲","鍋物","食物運鏡"],"clips":[{"timecode":"00:00–00:03","summary":"調味料與鍋物"},{"timecode":"00:03–00:09","summary":"生肉盤與紅色麵料食物"}]},
+        {"asset_id":"IMG_9784","source_name":"IMG_9784.MOV","media_type":"影片·00:03·1920×1080·60fps","representative_frame":"media/IMG_9784.jpg","representative_timecode":"00:02.0","content_summary":"餐廳桌面短運鏡，從座位卡與調味料移向飲料與玻璃鍋。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","餐飲","鍋物","建立鏡頭"],"clips":[{"timecode":"00:00–00:03","summary":"桌面與鍋物環境建立"}]},
+        {"asset_id":"On_SzbRPK2vMpzPuj82ARrtfSWDKMis0UGonTO1GLW8","source_name":"On_SzbRPK2vMpzPuj82ARrtfSWDKMis0UGonTO1GLW8.mp4","media_type":"影片·00:10·720×1280·30fps","representative_frame":"media/On_SzbRPK2vMpzPuj82ARrtfSWDKMis0UGonTO1GLW8.jpg","representative_timecode":"00:08.0","content_summary":"戶外服務窗口內的工作人員，為明信片蓋印並展示成品；人物授權待複核。","content_read":true,"confidence":"high","confidence_label":"畫面高·授權待複核","categories":["旅遊","明信片","蓋印","互動"],"clips":[{"timecode":"00:00–00:04","summary":"準備明信片與印章"},{"timecode":"00:04–00:10","summary":"蓋印並展示成品"}]},
+        {"asset_id":"IMG_9774","source_name":"IMG_9774(1).MOV","media_type":"影片·00:20·1920×1080·60fps","representative_frame":"media/IMG_9774.jpg","representative_timecode":"00:15.0","content_summary":"室內透過窗戶拍攝，前段有另一列車通過，後段顯示城市、田地、遠山與天空。辨識出的日語與畫面不符，不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·轉錄不採信","categories":["旅遊","列車窗景","交會","城郊景觀"],"clips":[{"timecode":"00:00–00:10","summary":"對向列車通過"},{"timecode":"00:10–00:20","summary":"城郊、田地與遠山"}]},
+        {"asset_id":"copy_7B22D8DD","source_name":"copy_7B22D8DD-0E95-4D84-9812-4695B66CB7BD.mov","media_type":"影片·00:07·1080×1920·30fps","representative_frame":"media/copy_7B22D8DD.jpg","representative_timecode":"00:05.0","content_summary":"戶外池畔手持兩張明信片，翻到正面展示圖案，背景為綠地、紅橋與建築。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","明信片","紀念品","池畔"],"clips":[{"timecode":"00:00–00:02","summary":"池畔與明信片背面"},{"timecode":"00:02–00:07","summary":"翻面展示圖案"}]},
+        {"asset_id":"IMG_9772","source_name":"IMG_9772(2).MOV","media_type":"影片·00:10·1920×1080·60fps","representative_frame":"media/IMG_9772.jpg","representative_timecode":"00:05.0","content_summary":"戶外手持兩張相同的邊框明信片，全段微幅調整角度，背景為樹木與紅色建築。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","明信片","紀念品","產品近景"],"clips":[{"timecode":"00:00–00:10","summary":"雙張明信片持續近景"}]},
+        {"asset_id":"IMG_9768","source_name":"IMG_9768(2).MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9768.jpg","representative_timecode":"00:02.5","content_summary":"手持 Baskin-Robbins 小杯綠色冰淇淋與兩支木製小匙，背景為自動販賣機與紅白圖案。","content_read":true,"confidence":"high","confidence_label":"畫面高信心","categories":["旅遊","甜點","冰淇淋","產品近景"],"clips":[{"timecode":"00:00–00:05","summary":"冰淇淋與木匙持續近景"}]}
       ]
     }
   ]
