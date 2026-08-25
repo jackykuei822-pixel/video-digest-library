@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-25T21:05:00+08:00",
+  "updated_at": "2026-08-25T21:30:00+08:00",
   "source_status": "connected",
-  "source_message": "全量基線為 25,170 支影片；已完成 36 支，待處理 25,134 支。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 44 支，待處理 25,126 支。照片與螢幕截圖不建立素材記錄。",
   "inventory": {
     "total": 25170,
-    "completed": 36,
-    "pending": 25134,
+    "completed": 44,
+    "pending": 25126,
     "failed": 0,
     "logical_bytes": 1900643827782,
     "baseline_at": "2026-08-25T09:58:57+08:00"
@@ -15,10 +15,10 @@
       "date": "2026-08-24",
       "title": "首次影片增量基線",
       "status": "COMPLETE",
-      "confirmed_new": 36,
-      "content_read_count": 36,
-      "review_count": 16,
-      "duplicate_groups": 2,
+      "confirmed_new": 44,
+      "content_read_count": 44,
+      "review_count": 19,
+      "duplicate_groups": 3,
       "failure_count": 0,
       "review_notes": [
         "IMG_9797 主要是可辨識人物近景，當事人身分與公開授權待複核。",
@@ -34,7 +34,10 @@
         "IMG_9740、IMG_9685、IMG_9719 有可辨識人物，身分與公開授權待複核。",
         "IMG_9740 的達摩帶手寫內容；代表畫面已避開文字，網站不轉錄，公開使用前仍須複核隱私。",
         "IMG_9721 為室內沉浸式燈光展示，場館、展覽名稱及公開使用限制待複核。",
-        "第五批自動語音辨識多處信心不足或語句不自然，不引用為內容事實；兩支 UUID 影片確認無音軌。"
+        "第五批自動語音辨識多處信心不足或語句不自然，不引用為內容事實；兩支 UUID 影片確認無音軌。",
+        "IMG_9718 拍到室內走廊、公共洗手間入口、夜景與男用便斗；公開使用前須複核場域及隱私適切性。",
+        "IMG_9717、IMG_9715、IMG_9713、IMG_9710、IMG_9708、IMG_9706 為同一高樓夜景場景的不同角度近似素材，城市與建築待複核。",
+        "第六批共六支確認無音軌；其餘兩支沒有可可靠引用的語音文字。"
       ],
       "candidate_topics": [
         {
@@ -149,7 +152,15 @@
         {"asset_id":"IMG_9685","source_name":"IMG_9685.MOV","media_type":"影片·00:16·1920×1080·60fps","representative_frame":"media/IMG_9685.jpg","representative_timecode":"00:10.0","content_summary":"餐廳桌前近距離拍攝一名男子進食，依序夾起麵條、低頭吃麵、再夾取肉片，後段對鏡頭比讚；人物授權與餐廳地點待複核，語音辨識不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物授權與地點待複核","categories":["旅遊","人物","餐飲","吃麵","反應鏡頭"],"clips":[{"timecode":"00:00–00:06","summary":"夾起麵條並低頭吃麵"},{"timecode":"00:06–00:12","summary":"夾取肉片進食"},{"timecode":"00:12–00:16","summary":"咀嚼後看鏡頭並比讚"}]},
         {"asset_id":"IMG_9721","source_name":"IMG_9721(3).MOV","media_type":"影片·00:41·1920×1080·60fps","representative_frame":"media/IMG_9721.jpg","representative_timecode":"00:20.0","content_summary":"黑暗室內的沉浸式燈光展示：地面與遠方多排白藍色光條由稀疏轉為放射狀排列，鏡頭緩慢移動，尾段帶到大型數字 16；場館與展覽名稱待複核，語音文字不採信。","content_read":true,"confidence":"medium","confidence_label":"畫面高·展覽場館待複核","categories":["旅遊","展覽","沉浸式空間","燈光藝術","長鏡頭"],"clips":[{"timecode":"00:00–00:12","summary":"黑暗空間中遠方與地面光條逐漸出現"},{"timecode":"00:12–00:30","summary":"放射狀白藍光條延伸，鏡頭緩慢移動"},{"timecode":"00:30–00:41","summary":"光條排列變化，尾段帶到大型數字 16"}]},
         {"asset_id":"IMG_9720","source_name":"IMG_9720(2).MOV","media_type":"影片·00:03·1920×1080·60fps","representative_frame":"media/IMG_9720.jpg","representative_timecode":"00:01.5","content_summary":"固定近景拍攝霧面玻璃上的男性洗手間圖示，玻璃後有人影移動，右側入口短暫出現路人；具體場域待複核，無可靠語音。","content_read":true,"confidence":"medium","confidence_label":"畫面高·場域待複核","categories":["旅遊","室內空間","洗手間標示","過場","人影"],"clips":[{"timecode":"00:00–00:03","summary":"男性洗手間圖示、霧面玻璃人影與入口路人"}]},
-        {"asset_id":"IMG_9719","source_name":"IMG_9719(1).MOV","media_type":"影片·00:12·1920×1080·60fps","representative_frame":"media/IMG_9719.jpg","representative_timecode":"00:06.0","content_summary":"高樓室內鏡面前，一名背包男子持手機自拍；鏡頭轉向窗外夜間城市景觀，再回到玻璃反射中的人物與夜景。人物授權、建築與城市地點待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物建築城市待複核","categories":["旅遊","人物","自拍","高樓夜景","玻璃反射"],"clips":[{"timecode":"00:00–00:04","summary":"鏡面中的背包男子持手機自拍"},{"timecode":"00:04–00:08","summary":"鏡頭轉向窗外城市夜景"},{"timecode":"00:08–00:12","summary":"玻璃反射疊合人物與夜景"}]}
+        {"asset_id":"IMG_9719","source_name":"IMG_9719(1).MOV","media_type":"影片·00:12·1920×1080·60fps","representative_frame":"media/IMG_9719.jpg","representative_timecode":"00:06.0","content_summary":"高樓室內鏡面前，一名背包男子持手機自拍；鏡頭轉向窗外夜間城市景觀，再回到玻璃反射中的人物與夜景。人物授權、建築與城市地點待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·人物建築城市待複核","categories":["旅遊","人物","自拍","高樓夜景","玻璃反射"],"clips":[{"timecode":"00:00–00:04","summary":"鏡面中的背包男子持手機自拍"},{"timecode":"00:04–00:08","summary":"鏡頭轉向窗外城市夜景"},{"timecode":"00:08–00:12","summary":"玻璃反射疊合人物與夜景"}]},
+        {"asset_id":"IMG_9718","source_name":"IMG_9718.MOV","media_type":"影片·00:37·1920×1080·60fps","representative_frame":"media/IMG_9718.jpg","representative_timecode":"00:22.0","content_summary":"高樓室內長鏡頭：開頭快速帶過室內物件，接著沿公共洗手間走廊前進，途中有路人；之後轉向大片窗景與城市夜景反射，尾段進入男用洗手間並拍到便斗。建築、城市與公共空間使用適切性待複核。","content_read":true,"confidence":"medium","confidence_label":"內容高·場域隱私與地點待複核","categories":["旅遊","高樓夜景","室內走廊","公共洗手間","長鏡頭","隱私複核"],"clips":[{"timecode":"00:00–00:12","summary":"由室內物件轉入洗手間走廊，路人迎面經過"},{"timecode":"00:12–00:29","summary":"窗邊城市夜景與玻璃反射"},{"timecode":"00:29–00:37","summary":"進入男用洗手間並帶到便斗"}]},
+        {"asset_id":"IMG_9717","source_name":"IMG_9717.MOV","media_type":"影片·00:12·1920×1080·無音軌","representative_frame":"media/IMG_9717.jpg","representative_timecode":"00:03.0","content_summary":"高樓窗邊固定拍攝城市夜景，道路車流與大片深色區域形成明暗對比；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","城市俯瞰","車流","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:12","summary":"固定城市夜景、道路車流與深色地景"}]},
+        {"asset_id":"IMG_9715","source_name":"IMG_9715(1).MOV","media_type":"影片·00:15·1920×1080·無音軌","representative_frame":"media/IMG_9715.jpg","representative_timecode":"00:03.0","content_summary":"高樓向下固定拍攝城市夜景，中央道路與車流形成亮線，兩側為建築與大片暗區；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","城市俯瞰","道路車流","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:15","summary":"固定俯瞰道路車流與周邊建築"}]},
+        {"asset_id":"IMG_9713","source_name":"IMG_9713(3).MOV","media_type":"影片·00:05·1920×1080·無音軌","representative_frame":"media/IMG_9713.jpg","representative_timecode":"00:03.0","content_summary":"高樓窗邊拍攝城市夜景與道路光帶，畫面大致固定；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","城市俯瞰","道路光帶","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:05","summary":"固定城市夜景與道路光帶"}]},
+        {"asset_id":"IMG_9711","source_name":"IMG_9711.MOV","media_type":"影片·00:05·1920×1080·60fps","representative_frame":"media/IMG_9711.jpg","representative_timecode":"00:02.5","content_summary":"從高處俯拍戶外矩形水池或舞台裝置，池面充滿霧氣與虹彩燈光，中央有數條藍色光帶，周圍可見桌椅與人群；具體場域與設施性質待複核，無可靠語音。","content_read":true,"confidence":"medium","confidence_label":"畫面高·場域設施待複核","categories":["旅遊","夜間燈光","霧氣","水池或舞台","俯拍","現場氛圍"],"clips":[{"timecode":"00:00–00:05","summary":"虹彩霧氣覆蓋矩形設施，中央藍色光帶持續發亮"}]},
+        {"asset_id":"IMG_9710","source_name":"IMG_9710(2).MOV","media_type":"影片·00:09·1920×1080·無音軌","representative_frame":"media/IMG_9710.jpg","representative_timecode":"00:04.0","content_summary":"高樓窗邊固定拍攝城市夜景，主要道路、車流與暗色建築區清楚可見；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","城市俯瞰","道路車流","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:09","summary":"固定拍攝城市夜景、道路與車流"}]},
+        {"asset_id":"IMG_9708","source_name":"IMG_9708(2).MOV","media_type":"影片·00:08·1920×1080·無音軌","representative_frame":"media/IMG_9708.jpg","representative_timecode":"00:04.0","content_summary":"隔著玻璃固定拍攝城市夜景，畫面上方可見室內反射或遮擋，下方為道路與密集燈光；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","玻璃反射","城市俯瞰","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:08","summary":"固定城市夜景，上方帶室內玻璃反射"}]},
+        {"asset_id":"IMG_9706","source_name":"IMG_9706(3).MOV","media_type":"影片·00:12·1920×1080·無音軌","representative_frame":"media/IMG_9706.jpg","representative_timecode":"00:06.0","content_summary":"高樓窗邊固定拍攝另一方向的城市夜景，橘色道路光帶與大片建築群延伸至遠方；全片無音軌，城市與建築待複核。","content_read":true,"confidence":"medium","confidence_label":"畫面高·無音軌·城市建築待複核","categories":["旅遊","高樓夜景","城市俯瞰","道路光帶","無音軌","近似素材"],"clips":[{"timecode":"00:00–00:12","summary":"固定拍攝城市建築群與橘色道路光帶"}]}
       ]
     }
   ]
