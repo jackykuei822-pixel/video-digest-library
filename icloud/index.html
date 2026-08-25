@@ -66,7 +66,7 @@
     fetch('data/reports.json?v='+Date.now()).then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(data=>{
       const rows=data.reports||[], latest=rows[0]||{}; document.querySelector('#updated').textContent=`最後更新：${data.updated_at||'未知'}`;
       alertBox.innerHTML=`<strong>${data.source_status==='connected'?'來源已連線':'真實來源尚未完成'}</strong>${esc(data.source_message)}`;
-      stats.innerHTML=[['確認新增',latest.confirmed_new],['內容已讀',latest.content_read_count],['待複核',latest.review_count],['重複群組',latest.duplicate_groups],['處理失敗',latest.failure_count]].map(([k,v])=>`<div class="stat"><b>${fmt(v)}</b><span>${k}</span></div>`).join('');
+      const inv=data.inventory||{};stats.innerHTML=[['全部影片',inv.total??latest.confirmed_new],['內容已讀',inv.completed??latest.content_read_count],['待處理',inv.pending??0],['處理失敗',inv.failed??latest.failure_count],['本批待複核',latest.review_count]].map(([k,v])=>`<div class="stat"><b>${fmt(v)}</b><span>${k}</span></div>`).join('');
       list.innerHTML=rows.length?rows.map(renderReport).join(''):'<div class="empty"><div class="icon">◌</div><h3>還沒有真實每日報告</h3><p>iCloud 來源與影片內容分析完成後，這裡才會出現素材、片段時碼、信心與候選主題；不以示範資料充當真實分類。</p></div>';
     }).catch(()=>{alertBox.innerHTML='<strong>讀取失敗</strong>無法取得每日報告資料。';list.innerHTML='<div class="empty"><h3>資料讀取失敗</h3><p>請稍後重新整理。</p></div>'});
   </script>

@@ -1,7 +1,15 @@
 {
   "updated_at": "2026-08-25T10:32:00+08:00",
   "source_status": "connected",
-  "source_message": "已建立影片專用增量索引；本批 4 支影片均已讀取完整時間軸與音軌。照片與螢幕截圖不建立素材記錄。",
+  "source_message": "全量基線為 25,170 支影片；已完成 4 支，待處理 25,166 支。照片與螢幕截圖不建立素材記錄。",
+  "inventory": {
+    "total": 25170,
+    "completed": 4,
+    "pending": 25166,
+    "failed": 0,
+    "logical_bytes": 1900643827782,
+    "baseline_at": "2026-08-25T09:58:57+08:00"
+  },
   "reports": [
     {
       "date": "2026-08-24",
@@ -48,6 +56,7 @@
       "assets": [
         {
           "asset_id": "IMG_9793",
+          "source_name": "IMG_9793(2).MOV",
           "media_type": "影片·00:05·1920×1080·60fps",
           "representative_frame": "media/IMG_9793.jpg",
           "representative_timecode": "00:03.2",
@@ -60,6 +69,7 @@
         },
         {
           "asset_id": "IMG_9797",
+          "source_name": "IMG_9797(1).MOV",
           "media_type": "影片·00:11·1920×1080·60fps",
           "representative_frame": "media/IMG_9797.jpg",
           "representative_timecode": "00:08.4",
@@ -72,6 +82,7 @@
         },
         {
           "asset_id": "IMG_9798",
+          "source_name": "IMG_9798(2).MOV",
           "media_type": "影片·00:12·1920×1080·60fps",
           "representative_frame": "media/IMG_9798.jpg",
           "representative_timecode": "00:06.0",
@@ -84,6 +95,7 @@
         },
         {
           "asset_id": "copy_18FBE7C5",
+          "source_name": "copy_18FBE7C5-8DAF-44E0-97B8-2DA2742250C5.mov",
           "media_type": "影片·00:36·1080×1920·30fps",
           "representative_frame": "media/copy_18FBE7C5.jpg",
           "representative_timecode": "00:09.0",
